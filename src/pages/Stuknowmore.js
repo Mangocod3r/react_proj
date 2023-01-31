@@ -1,6 +1,10 @@
-export function Stu_knowmore() {
+import Header from '../components/header_s';
+import Footer from '../components/footer'
+
+export function Stuknowmore() {
     return (
             <>
+            <Header></Header>
                 <div className="container-fluid main">  
         <div className="col">
           <div className="row-sm-4">
@@ -52,6 +56,7 @@ export function Stu_knowmore() {
           <div><p /></div>
         </div>
       </div>
+      <Footer></Footer>
             </>
             )
 }
