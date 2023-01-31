@@ -1,28 +1,28 @@
-// import './home.css';
-// import { Routes, Route } from "react-router-dom";
-// import {Home} from "./pages/Home";
-// import {Stu_viewmore} from "./pages/Stu_viewmore";
-// import {Stu_main} from "./pages/Stu_main";
-// import {Stu_knowmore} from "./pages/Stu_knowmore";
-// import {Stu_ideas} from "./pages/Stu_ideas";
-// import {Stu_viewidea} from "./pages/Stu_viewidea";
-// // import {AboutUs} from "./pages/AboutUs";
+import './home.css';
+import { Routes, Route } from "react-router-dom";
+import {Home} from "./pages/Home";
+import {Stu_viewmore} from "./pages/Stu_viewmore";
+import {Stu_main} from "./pages/Stu_main";
+import {Stu_knowmore} from "./pages/Stu_knowmore";
+import {Stu_ideas} from "./pages/Stu_ideas";
+import {Stu_viewidea} from "./pages/Stu_viewidea";
+// import {AboutUs} from "./pages/AboutUs";
 
-// function App() {
-//   return (
+function App() {
+  return (
 
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/stu_main.html" element={<Stu_main />} /> 
-//         <Route path="/stu_viewmore.html" element={<Stu_viewmore />} />
-//         <Route path="/stu_sub_idea.html" element={<Stu_knowmore />} />
-//         <Route path="/stu_ideas.html" element={<Stu_ideas />} />
-//         <Route path="/stu_view_idea.html" element={<Stu_viewidea />} />
-//       </Routes>
-//   );
-// }
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/stu_main.html" element={<Stu_main />} /> 
+        <Route path="/stu_viewmore.html" element={<Stu_viewmore />} />
+        <Route path="/stu_sub_idea.html" element={<Stu_knowmore />} />
+        <Route path="/stu_ideas.html" element={<Stu_ideas />} />
+        <Route path="/stu_view_idea.html" element={<Stu_viewidea />} />
+      </Routes>
+  );
+}
 
-// export default App
+export default App
 
 // import React from "react";
  
