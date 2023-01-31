@@ -1,6 +1,10 @@
-export function Stu_viewidea() {
+import Header from '../components/header_s'
+import Footer from '../components/footer'
+
+export function Stuviewidea() {
     return (
             <>
+            <Header></Header>
                 <div className="container-fluid main">  
         <div className="col">
           <div className="row-sm-4">
@@ -43,6 +47,7 @@ export function Stu_viewidea() {
           <div><p /></div>
         </div>
       </div>
+      <Footer></Footer>
             </>
            )
 }
