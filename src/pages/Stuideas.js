@@ -5,7 +5,7 @@ export function Stuideas() {
     return (
             <>
             <Header></Header>
-                <div className="container-fluid main" id="productTable">
+                <div className="container-fluid main" id="productTable" style={{ paddingTop: 128 }}>
         <table className="table-fill table-bordered">
           <thead>
             <tr>
