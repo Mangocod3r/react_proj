@@ -2,9 +2,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Header from '../components/header_s'
+import Footer from '../components/footer'
 
 
-export function Stu_main() {
+export function Stumain() {
     return (
 
 
@@ -258,7 +259,7 @@ export function Stu_main() {
     </h1>
     <div className="row">
       <div className="col-sm-4">
-        <a href="stu_viewmore.html">
+        <a href="stu_viewmore">
           <div className="text-center shadow p-3 mb-5 bg-white rounded">
             <img
               src="https://media.istockphoto.com/id/1223301957/photo/artificial-intelligence-technology.jpg?s=612x612&w=0&k=20&c=3GSFioDKwb8jSN0lH-ZmMyiA66dzw6kkQV3Hjd0SNU4="
@@ -345,7 +346,7 @@ export function Stu_main() {
       </div>
     </div>
   </div>
-  
+  <Footer></Footer>
 </>
 
 )
