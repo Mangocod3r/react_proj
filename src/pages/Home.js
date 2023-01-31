@@ -1,9 +1,9 @@
 import Header from '../components/header'
-import PrimaryPinkButton from '../components/primary-pink-button'
-import OutlineGrayButton from '../components/outline-gray-button'
-import FeatureCard from '../components/feature-card'
-import OutlineBlackButton from '../components/outline-black-button'
-import ListItem from '../components/list-item'
+// import PrimaryPinkButton from '../components/primary-pink-button'
+// import OutlineGrayButton from '../components/outline-gray-button'
+// import FeatureCard from '../components/feature-card'
+// import OutlineBlackButton from '../components/outline-black-button'
+//import ListItem from '../components/list-item'
 import Footer from '../components/footer'
 // import './home.css'
 
@@ -12,7 +12,7 @@ export function Home() {
     <>
     <div>
         <div className="home-container">
-          <img alt="image" src="public/playground_assets/curved6-1500h.jpg" className="home-image" />7
+          <img alt="" src="public/playground_assets/curved6-1500h.jpg" className="home-image" />7
             <Header></Header>
             <div data-role="MobileMenu" className="header-mobile-menu">
               <div className="header-top">
@@ -67,38 +67,38 @@ export function Home() {
                   </div>
                 </div>
                 <div className="home-container04">
-                  <img alt="image" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-pinterest.svg" className="home-image01" />
-                  <img alt="image" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-netflix.svg" className="home-image02" />
-                  <img alt="image" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-coinbase.svg" className="home-image03" />
-                  <img alt="image" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-nasa.svg" className="home-image04" />
+                  <img alt="" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-pinterest.svg" className="home-image01" />
+                  <img alt="" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-netflix.svg" className="home-image02" />
+                  <img alt="" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-coinbase.svg" className="home-image03" />
+                  <img alt="" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-nasa.svg" className="home-image04" />
                 </div>
               </div>
             </div>
           </div>
           <section className="home-features">
             <div className="feature-card-container">
-              <img alt="image" src="public/playground_assets/cube1.svg" className="feature-card-image" />
+              <img alt="" src="public/playground_assets/cube1.svg" className="feature-card-image" />
               <h5 className="feature-card-text HeadingThree"><span>Design</span></h5>
               <span className="feature-card-text1">
                 <span>Choose the best platform for your next product.</span>
               </span>
             </div>
             <div className="feature-card-container">
-              <img alt="image" src="public/playground_assets/person1.svg" className="feature-card-image" />
+              <img alt="" src="public/playground_assets/person1.svg" className="feature-card-image" />
               <h5 className="feature-card-text HeadingThree"><span>Design</span></h5>
               <span className="feature-card-text1">
                 <span>Get the latest project ideas and turn it into reality</span>
               </span>
             </div>
             <div className="feature-card-container">
-              <img alt="image" src="public/playground_assets/rocket1.svg" className="feature-card-image" />
+              <img alt="" src="public/playground_assets/rocket1.svg" className="feature-card-image" />
               <h5 className="feature-card-text HeadingThree"><span>Design</span></h5>
               <span className="feature-card-text1">
                 <span>Make your idea easier to maintain using variables.</span>
               </span>
             </div>
             <div className="feature-card-container">
-              <img alt="image" src="public/playground_assets/credit%20card1.svg" className="feature-card-image" />
+              <img alt="" src="public/playground_assets/credit%20card1.svg" className="feature-card-image" />
               <h5 className="feature-card-text HeadingThree"><span>Design</span></h5>
               <span className="feature-card-text1">
                 <span>This system is fully supported on any device.</span>
@@ -119,7 +119,7 @@ export function Home() {
             </div>
             <div className="home-container07">
               <div className="home-container08">
-                <img alt="image" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laptop.jpg" className="home-image05" />
+                <img alt="" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laptop.jpg" className="home-image05" />
                 <span className="home-text07 Small">
                   <span className="home-text08">
                     "Over the span of the satellite record, Arctic sea ice has
@@ -130,11 +130,11 @@ export function Home() {
                   <span className="home-text10">-NOAA</span>
                 </span>
                 <div className="home-container09">
-                  <img alt="image" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coding.jpg" className="home-image06" />
+                  <img alt="" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coding.jpg" className="home-image06" />
                 </div>
               </div>
               <div className="home-container10">
-                <img alt="image" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/tasks.jpg" className="home-image07" />
+                <img alt="" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/tasks.jpg" className="home-image07" />
                 <div className="home-container11">
                   <h3 className="HeadingTwo">
                     <span className="home-text12">
@@ -206,11 +206,11 @@ export function Home() {
                   <p className="home-text25">Anonmyous</p>
                   <p className="home-text26 Small">Dept , Name</p>
                   <div className="home-container15">
-                    <img alt="image" src="public/playground_assets/team-4-200h.jpg" className="home-image08" />
+                    <img alt="" src="public/playground_assets/team-4-200h.jpg" className="home-image08" />
                     <div className="home-container16" />
-                    <img alt="image" src="public/playground_assets/team-3-200h.jpg" className="home-image09" />
+                    <img alt="" src="public/playground_assets/team-3-200h.jpg" className="home-image09" />
                     <div className="home-container17" />
-                    <img alt="image" src="public/playground_assets/team-2-200h.jpg" className="home-image10" />
+                    <img alt="" src="public/playground_assets/team-2-200h.jpg" className="home-image10" />
                   </div>
                 </div>
               </div>
@@ -218,40 +218,40 @@ export function Home() {
                 <div className="home-container18">
                   <div className="home-container19">
                     <div className="home-container20">
-                      <img alt="image" src="public/playground_assets/logo-asana.svg" className="home-image11" />
+                      <img alt="" src="public/playground_assets/logo-asana.svg" className="home-image11" />
                     </div>
                     <div className="home-container21">
-                      <img alt="image" src="public/playground_assets/logo-slack.svg" className="home-image12" />
+                      <img alt="" src="public/playground_assets/logo-slack.svg" className="home-image12" />
                     </div>
                     <div className="home-container22">
-                      <img alt="image" src="public/playground_assets/logo-google-drive.svg" className="home-image13" />
+                      <img alt="" src="public/playground_assets/logo-google-drive.svg" className="home-image13" />
                     </div>
                   </div>
                   <div className="home-container23">
                     <div className="home-container24">
-                      <img alt="image" src="public/playground_assets/logo-shopify.svg" className="home-image14" />
+                      <img alt="" src="public/playground_assets/logo-shopify.svg" className="home-image14" />
                     </div>
                     <div className="home-container25">
-                      <img alt="image" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg" className="home-image15" />
+                      <img alt="" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg" className="home-image15" />
                     </div>
                     <div className="home-container26">
-                      <img alt="image" src="public/playground_assets/logo-invision.svg" className="home-image16" />
+                      <img alt="" src="public/playground_assets/logo-invision.svg" className="home-image16" />
                     </div>
                   </div>
                   <div className="home-container27">
                     <div className="home-container28">
-                      <img alt="image" src="public/playground_assets/logo-attlasian.svg" className="home-image17" />
+                      <img alt="" src="public/playground_assets/logo-attlasian.svg" className="home-image17" />
                     </div>
                     <div className="home-container29">
-                      <img alt="image" src="public/playground_assets/logo-weave.svg" className="home-image18" />
+                      <img alt="" src="public/playground_assets/logo-weave.svg" className="home-image18" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <img alt="image" src="public/playground_assets/bottom.svg" className="home-bottom-wave-image" />
-            <img alt="image" src="public/playground_assets/waves-white.svg" className="home-image19" />
-            <img alt="image" src="public/playground_assets/top.svg" className="home-top-wave-image" />
+            <img alt="" src="public/playground_assets/bottom.svg" className="home-bottom-wave-image" />
+            <img alt="" src="public/playground_assets/waves-white.svg" className="home-image19" />
+            <img alt="" src="public/playground_assets/top.svg" className="home-top-wave-image" />
           </section>
           <section className="home-contaier">
             <div className="home-container30">
@@ -283,7 +283,7 @@ export function Home() {
                   <span className="home-text33">Entrepreneur</span>
                   <div className="outline-black-button-container">
                     <button className="outline-black-button-button button ButtonSmall">
-                      <span><a href="ent_final.html">Get started</a></span>
+                      <span><a href="entmain">Get started</a></span>
                     </button>
                   </div>
                 </div>
@@ -372,7 +372,7 @@ export function Home() {
                   <span className="home-text33">Students</span>
                   <div className="outline-black-button-container">
                     <button className="outline-black-button-button button ButtonSmall">
-                      <span><a href="stu_main.html">Get started</a></span>
+                      <span><a href="stu_main">Get started</a></span>
                     </button>
                   </div>
                 </div>
