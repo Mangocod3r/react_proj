@@ -1,11 +1,14 @@
 import './home.css';
 import { Routes, Route } from "react-router-dom";
 import {Home} from "./pages/Home";
-import {Stu_viewmore} from "./pages/Stu_viewmore";
-import {Stu_main} from "./pages/Stu_main";
-import {Stu_knowmore} from "./pages/Stu_knowmore";
-import {Stu_ideas} from "./pages/Stu_ideas";
-import {Stu_viewidea} from "./pages/Stu_viewidea";
+import {Stuviewmore} from "./pages/Stuviewmore";
+import {Stumain} from "./pages/Stumain";
+import {Stuknowmore} from "./pages/Stuknowmore";
+import {Stuideas} from "./pages/Stuideas";
+import {Stuviewidea} from "./pages/Stuviewidea";
+import {Entmain} from "./pages/Entmain";
+import {Entupload} from "./pages/Entupload";
+import {Entresp} from "./pages/Entresp";
 // import {AboutUs} from "./pages/AboutUs";
 
 function App() {
@@ -13,11 +16,14 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/stu_main.html" element={<Stu_main />} /> 
-        <Route path="/stu_viewmore.html" element={<Stu_viewmore />} />
-        <Route path="/stu_sub_idea.html" element={<Stu_knowmore />} />
-        <Route path="/stu_ideas.html" element={<Stu_ideas />} />
-        <Route path="/stu_view_idea.html" element={<Stu_viewidea />} />
+        <Route path="/stu_main" element={<Stumain />} /> 
+        <Route path="/stu_viewmore" element={<Stuviewmore />} />
+        <Route path="/stu_sub_idea" element={<Stuknowmore />} />
+        <Route path="/stu_ideas" element={<Stuideas />} />
+        <Route path="/stu_view_idea" element={<Stuviewidea />} />
+        <Route path="/entmain" element={<Entmain />} />
+        <Route path="/entupload" element={<Entupload />} />
+        <Route path="/entresp" element={<Entresp />} />
       </Routes>
   );
 }
