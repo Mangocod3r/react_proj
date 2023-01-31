@@ -1,8 +1,11 @@
-import Image from 'react-bootstrap/Image'
+//import Image from 'react-bootstrap/Image'
+import Header from '../components/header_s';
+import Footer from '../components/footer'
 
-export function Stu_viewmore() {
+export function Stuviewmore() {
     return (
         <>
+        <Header></Header>
       <div className="container-fluid main p-5 mt-5" id="productTable">
         <p className="text-center p-1" style={{fontSize: '40px', fontWeight: 600}}>MACHINE LEARNING</p>
         <table className="table-fill">
@@ -31,7 +34,7 @@ export function Stu_viewmore() {
                       </li>
                     </ul>
                     <div className="display-5 text-center">
-                      <a href="stu_sub_idea.html">
+                      <a href="stu_sub_idea">
                         <div className="d-grid d-md-flex justify-content-md-start p-4">
                           <button type="button" className="btn btn-success active">
                             KNOW MORE
@@ -40,7 +43,7 @@ export function Stu_viewmore() {
                       </a>
                     </div>
                   </div>
-                  <img src="https://media.istockphoto.com/id/1271467389/photo/children-wearing-face-medical-mask-back-to-school-after-covid-19-quarantine.jpg?s=612x612&w=0&k=20&c=_-_awl0JeSR51Ibvrl1bLNF8OuQegOoXdwVET7EX3u8=" style={{marginLeft: '6.23%', borderRadius: '2%', maxWidth: '40%', height: 'auto'}} />  
+                  <img alt="" src="https://media.istockphoto.com/id/1271467389/photo/children-wearing-face-medical-mask-back-to-school-after-covid-19-quarantine.jpg?s=612x612&w=0&k=20&c=_-_awl0JeSR51Ibvrl1bLNF8OuQegOoXdwVET7EX3u8=" style={{marginLeft: '6.23%', borderRadius: '2%', maxWidth: '40%', height: 'auto'}} />  
                 </div> 
               </td>
             </tr>
@@ -62,7 +65,7 @@ export function Stu_viewmore() {
                       </li>
                     </ul>
                     <div className="display-5 text-center">
-                      <a href="stu_sub_idea.html">
+                      <a href="stu_sub_idea">
                         <div className="d-grid d-md-flex justify-content-md-start p-4">
                           <button type="button" className="btn btn-success active">
                             KNOW MORE
@@ -93,7 +96,7 @@ export function Stu_viewmore() {
                       </li>
                     </ul>
                     <div className="display-5 text-center">
-                      <a href="stu_sub_idea.html">
+                      <a href="stu_sub_idea">
                         <div className="d-grid d-md-flex justify-content-md-start p-4">
                           <button type="button" className="btn btn-success active">
                             KNOW MORE
@@ -124,7 +127,7 @@ export function Stu_viewmore() {
                       </li>
                     </ul>
                     <div className="display-5 text-center">
-                      <a href="stu_sub_idea.html">
+                      <a href="stu_sub_idea">
                         <div className="d-grid d-md-flex justify-content-md-start p-4">
                           <button type="button" className="btn btn-success active">
                             KNOW MORE
@@ -140,6 +143,7 @@ export function Stu_viewmore() {
           </tbody>
         </table>
       </div>
+      <Footer></Footer>
         </>
     )
 }
