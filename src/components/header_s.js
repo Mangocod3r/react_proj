@@ -25,10 +25,14 @@ const Header = (props) => {
           </div>
           <div className="header-container1">
             <div className="header-container2">
-              {/* <PrimaryPinkButton button="SIGN UP"></PrimaryPinkButton> */}
+              {/* <PrimaryPinkButton button="YOUR IDEAS">  */}
+              <Link to="/stu_ideas" className="header-navlink3 Large">
+              YOUR IDEAS
+            </Link>
+              {/* </PrimaryPinkButton> */}
               
               <PrimaryPinkButton
-                button="SIGN IN"
+                button="YOUR PROFILE"
                 rootClassName="primary-pink-button-root-class-name"
               ></PrimaryPinkButton>
             </div>
@@ -37,10 +41,13 @@ const Header = (props) => {
                 <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
               </svg>
             </div>
+
+            
+
           </div>
         </div>
       </nav>
-      <div data-role="MobileMenu" className="header-mobile-menu">
+      {/* <div data-role="MobileMenu" className="header-mobile-menu">
         <div className="header-top">
           <Link to="/" className="header-navlink4 Large">
             Soft UI Design System
@@ -67,7 +74,7 @@ const Header = (props) => {
         <div className="header-bot">
           <PrimaryPinkButton button="buy now"></PrimaryPinkButton>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
